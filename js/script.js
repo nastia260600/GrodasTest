@@ -1,5 +1,5 @@
 async function getResponse() {
-   let response = await fetch('./data.json')
+   let response = await fetch('./js/data.json')
    let content = await response.json()
    let featuredContent = content.slice(0)
    let lastContent = content.slice(0)
